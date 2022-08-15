@@ -13,5 +13,11 @@ Malaria is a life-threatening disease caused by Plasmodium parasities, is still 
 In this project, we develop a Convolutional Neural Network model and Deploy it in a Streamlit web app to detect whether a cell is parasitized or not with malaria based in microscopic images.
 
 ## **Data Preparation**
+The malaria dataset contain two folders:
+  - Parasitized 
+  - Unifected
+With a total of 27,560 images
+
+This dataset was taken from NIH Website: [Link](https://ceb.nlm.nih.gov/repositories/malaria-datasets/)
 
 
