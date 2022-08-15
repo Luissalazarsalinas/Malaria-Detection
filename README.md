@@ -8,3 +8,10 @@
 An end-to-end Deep Learning project to detect Malaria in human Blood Cell
 
 ## **Problem Statement**
+Malaria is a life-threatening disease caused by Plasmodium parasities, is still a severe health concern in large parts of the world especially the third world countries. Almost 2019 million cases of malaria, across 87 countries worldwide, were reported by World Health Organization (WHO) in the year de 2017. WHO designated South-East Asia, Eastern Mediterranean, Western Pacific, and the Americas as high risk zone. Malaria is curable and can be prevented if proper initiatives and approaches are taken effectively, which majorly relies on early diagnosis of malaria parasities.
+
+In this project, we develop a Convolutional Neural Network model and Deploy it in a Streamlit web app to detect whether a cell is parasitized or not with malaria based in microscopic images.
+
+## **Data Preparation**
+
+
