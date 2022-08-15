@@ -12,6 +12,8 @@ Malaria is a life-threatening disease caused by Plasmodium parasities, is still 
 
 In this project, we develop a Convolutional Neural Network model and Deploy it in a Streamlit web app to detect whether a cell is parasitized or not with malaria based in microscopic images.
 
+
+
 ## **Data Preparation**
 The malaria dataset contain two folders:
   - Parasitized 
@@ -20,4 +22,23 @@ With a total of 27,560 images
 
 This dataset was taken from NIH Website: [Link](https://ceb.nlm.nih.gov/repositories/malaria-datasets/)
 
+Data Preprocessing Steps:
+
+- Split data into train and val set
+- Data normalization[0,1]
+- Data augmentation techniques applied:
+  - image flipping
+  - zoom
+  - image rotation
+  - Image brightness range
+
+## **Modelling**
+In this project I tasted the folling Convolutional Neural Network Architecture by transfer learning method:
+
+ - MobileNetV2 (Pretrained with imginet images)
+
+Fine Tune model Performnace: 93% (accuracy score metric)(MODIFY)
+
+## **Deploy**
+The Streamlit app was deployed on Streamlit Cloud
 
